@@ -9,7 +9,7 @@ jobs:
       - name: Set up NodeJs
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: "18"
       - name: Install dependencies
         run: npm ci
       - name: Lint code
@@ -23,8 +23,8 @@ jobs:
       - name: Set up NodJs
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
-      - name: Install dependencies:
+          node-version: "18"
+      - name: Install dependencies
         run: npm ci
       - name: Run tests
         run: npm test
@@ -37,8 +37,8 @@ jobs:
       - name: Set up NodeJs
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
-      - name: Install dependencies:
+          node-version: "18"
+      - name: Install dependencies
         run: npm ci
       - name: Build project
         run: npm run build
